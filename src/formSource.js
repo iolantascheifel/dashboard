@@ -32,16 +32,10 @@ export const userInputs = [
     id: 6,
     label: "Address",
     type: "text",
-    placeholder: "Nytorv 12, 34",
+    placeholder: "Nytorv 12, 34 Aalborg",
   },
   {
     id: 7,
-    label: "City",
-    type: "text",
-    placeholder: "Copenhagen",
-  },
-  {
-    id: 8,
     label: "Country",
     type: "text",
     placeholder: "Denmark",
@@ -53,7 +47,7 @@ export const productInputs = [
     id: 1,
     label: "Title",
     type: "text",
-    placeholder: "Apple Macbook Pro",
+    placeholder: "Subscription+",
   },
   {
     id: 2,
@@ -65,13 +59,13 @@ export const productInputs = [
     id: 3,
     label: "Category",
     type: "text",
-    placeholder: "Computers",
+    placeholder: "Software",
   },
   {
     id: 4,
     label: "Price",
     type: "text",
-    placeholder: "100",
+    placeholder: "430€",
   },
   {
     id: 5,

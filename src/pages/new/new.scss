@@ -36,8 +36,10 @@
         form {
           display: flex;
           flex-wrap: wrap;
-          gap: 30px;
+          align-items: center;
+          gap: 10px;
           justify-content: space-around;
+          height: 500px;
 
           .formInput {
             width: 40%;

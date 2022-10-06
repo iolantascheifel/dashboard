@@ -10,7 +10,7 @@ const Widget = ({ type }) => {
   let data;
 
   //temporary
-  const amount = 100;
+  const amount = 430;
   const diff = 20;
 
   switch (type) {
@@ -92,7 +92,7 @@ const Widget = ({ type }) => {
       <div className="left">
         <span className="title">{data.title}</span>
         <span className="counter">
-          {data.isMoney && "$"} {amount}
+          {data.isMoney && "€"} {amount}
         </span>
         <span className="link">{data.link}</span>
       </div>

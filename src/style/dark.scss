@@ -1,9 +1,9 @@
-@mixin color-scheme() {
-  background-color: #000221;
-}
+// @mixin color-scheme() {
+//   background-color: #000221;
+// }
 
 .app.dark {
-  background-color: #000221;
+  background-color: #1b1b22;
   color: rgb(156, 156, 156);
 
   .chartGrid {
@@ -11,10 +11,26 @@
   }
 
   .table {
-    background-color: rgb(1, 0, 7);
+    background-color: #25273f;
+    color: rgb(238, 229, 229);
 
     .tableCell {
       color: gray;
+    }
+  }
+
+  .widget {
+    background-color: #25273f;
+    color: rgb(238, 229, 229);
+    box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  }
+
+  .product {
+    background-color: #25273f;
+    color: rgb(238, 229, 229);
+
+    .product-info {
+      color: rgb(153, 153, 175);
     }
   }
 
@@ -55,7 +71,7 @@
 
   .datatable {
     .datagrid {
-      color: gray;
+      color: rgb(195, 195, 195);
       border: none;
 
       .viewButton,
