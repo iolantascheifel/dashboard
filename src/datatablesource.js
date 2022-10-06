@@ -38,7 +38,6 @@ export const userColumns = [
   },
 ];
 
-//temporary data
 export const userRows = [
   {
     id: 1,

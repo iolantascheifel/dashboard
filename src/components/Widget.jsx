@@ -38,7 +38,11 @@ const Widget = ({ type }) => {
       data = {
         title: "ORDERS",
         isMoney: false,
-        link: "View all orders",
+        link: (
+          <Link to="/orders" style={{ textDecoration: "none" }}>
+            View all orders
+          </Link>
+        ),
         icon: (
           <ShoppingCartOutlinedIcon
             className="icon"
