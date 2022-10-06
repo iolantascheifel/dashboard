@@ -2,7 +2,7 @@ import "./single.scss";
 import Sidebar from "../../components/Sidebar";
 import Navbar from "../../components/Navbar";
 import Chart from "../../components/Chart";
-import List from "../../components/Table";
+import List from "../../components/UI components/Table";
 
 const Single = () => {
   return (
